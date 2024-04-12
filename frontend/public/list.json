@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Maths",
+        "description": "Learn Trignometry, Algebra and Statistics",
+        "price": "0$",
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1712769568~exp=1712770168~hmac=6ff957b44a4a0becd218776a34f90be71d71e6923359c7b0d503959885df7a45"
+    },
+    {
+        "id": 2,
+        "name": "Physics",
+        "description": "Learn Kinematics and Thermodynamics",
+        "price": "0$",
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1712769568~exp=1712770168~hmac=6ff957b44a4a0becd218776a34f90be71d71e6923359c7b0d503959885df7a45"
+    },
+    {
+        "id": 3,
+        "name": "Chemistry",
+        "description": "Learn Organic Chemistry and Reactions",
+        "price": "0$",
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1712769568~exp=1712770168~hmac=6ff957b44a4a0becd218776a34f90be71d71e6923359c7b0d503959885df7a45"
+    },
+    {
+        "id": 4,
+        "name": "Computer",
+        "description": "Learn Data Structures and Algorithms",
+        "price": "0$",
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1712769568~exp=1712770168~hmac=6ff957b44a4a0becd218776a34f90be71d71e6923359c7b0d503959885df7a45"
+    },
+    {
+        "id": 5,
+        "name": "English",
+        "description": "Learn Grammar and Improve your English",
+        "price": "0$",
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1712769568~exp=1712770168~hmac=6ff957b44a4a0becd218776a34f90be71d71e6923359c7b0d503959885df7a45"
+    }
+]
