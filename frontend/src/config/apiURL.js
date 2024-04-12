@@ -1,2 +1,2 @@
-const apiURL = "http://localhost:2000";
+const apiURL = "https://bukstore-backend.vercel.app/";
 export default apiURL;
