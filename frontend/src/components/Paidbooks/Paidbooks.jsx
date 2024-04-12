@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Card from './../Card/Card';
+import apiURL from '../../config/apiURL';
 
 const Paidbooks = () => {
     const [book, setBook] = useState([]);
@@ -8,7 +9,7 @@ const Paidbooks = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:2000/api/v1/book');
+                const response = await axios.get(`${apiURL}/api/v1/book`);
                 setBook(response.data);
             } catch (error) {
                 console.log(error.message);

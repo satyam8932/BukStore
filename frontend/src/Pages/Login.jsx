@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form"
 import Navbar from "../components/Navbar/Navbar";
 import toast from 'react-hot-toast';
 import axios from 'axios';
+import apiURL from "../config/apiURL";
 
 const Login = () => {
 
@@ -20,7 +21,7 @@ const Login = () => {
       password: data.password
     }
 
-    await axios.post("http://localhost:2000/api/v1/login", userCreds)
+    await axios.post(`${apiURL}/api/v1/login`, userCreds)
       .then((res) => {
         if (res.data) {
           toast.success("Login successfull")

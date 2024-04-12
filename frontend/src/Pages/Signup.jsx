@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form"
 import Navbar from "../components/Navbar/Navbar";
 import axios from 'axios'
 import toast from 'react-hot-toast';
-
+import apiURL from "../config/apiURL";
 
 const Signup = () => {
 
@@ -22,7 +22,7 @@ const Signup = () => {
             password: data.password
         }
 
-        await axios.post("http://localhost:2000/api/v1/signup", userCreds)
+        await axios.post(`${apiURL}/api/v1/signup`, userCreds)
         .then((res) => {
             console.log(res.data);
             if(res.data){

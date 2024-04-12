@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import axios from "axios"
 import { useState, useEffect } from 'react';
+import apiURL from '../../config/apiURL';
 
 const Freebooks = () => {
 
@@ -13,7 +14,7 @@ const Freebooks = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:2000/api/v1/book');
+                const response = await axios.get(`${apiURL}/api/v1/book`);
                 setBook(response.data);
             } catch (error) {
                 console.log(error.message);
